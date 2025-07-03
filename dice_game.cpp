@@ -21,5 +21,11 @@ int main() {
     cout << "Die 2: " << die2 << endl;
     cout << "Total value: " << die1 + die2 << endl;
 
+    if (die1 + die2 > 7) {
+        cout << name << " won!" << endl;
+    } else {
+        cout << name << " lost!" << endl;
+    }
+
     return 0;
 }
